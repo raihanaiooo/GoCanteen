@@ -6,7 +6,7 @@
 	--white: #fff;
 	--black: #222;
 	--light-color: #777;
-	--border: 0.2rem solid var(--black);
+	--border: 0.2rem solid #621708;
 }
 
 * {
@@ -102,8 +102,8 @@ section {
 }
 
 .btn {
-	background-color: var(--yellow);
-	color: var(--black);
+	background-color: #ffa800;
+	color: #621708;
 }
 
 .delete-btn {
@@ -171,7 +171,7 @@ section {
 	left: 0;
 	right: 0;
 	z-index: 1000;
-	background-color: var(--white);
+	background-color:white;
 	border-bottom: var(--border);
 }
 
@@ -184,29 +184,29 @@ section {
 
 .header .flex .logo {
 	font-size: 2.5rem;
-	color: var(--black);
+	color: #621708;
 }
 
 .header .flex .navbar a {
 	font-size: 2rem;
-	color: var(--black);
+	color: #621708;
 	margin: 0 1rem;
 }
 
 .header .flex .navbar a:hover {
-	color: var(--yellow);
+	color: #ffd872;
 	text-decoration: underline;
 }
 
 .header .flex .icons > * {
 	margin-left: 1.5rem;
 	font-size: 2.5rem;
-	color: var(--black);
+	color: #621708;
 	cursor: pointer;
 }
 
 .header .flex .icons > *:hover {
-	color: var(--yellow);
+	color:#ffd872;
 }
 
 .header .flex .icons span {
@@ -784,41 +784,48 @@ section {
 }
 
 .form-container form {
-	border: var(--border);
+	background-color: #ffd872;
+	border-radius: 20px;
 	margin: 0 auto;
 	max-width: 50rem;
 	padding: 2rem;
 	text-align: center;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-.form-container form h3 {
-	font-size: 2.5rem;
-	color: var(--black);
+.form-container form h1 {
+	color: #621708;
+	font-family: Lilita One;
+	font-size: 4rem;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
 }
 
 .form-container form .box {
 	margin: 0.7rem 0;
-	width: 100%;
-	border: var(--border);
+	width: 40rem;
 	padding: 1.4rem;
 	font-size: 1.8rem;
+	border-radius: 10px; 
 	color: var(--black);
 }
 
 .form-container form p {
 	margin-top: 1.5rem;
-	font-size: 2rem;
-	color: var(--light-color);
+	font-size: 1.5rem;
+	color: #621708;
 }
 
 .form-container form p a {
-	color: var(--black);
+	color: #5958b7;
 }
 
 .form-container form p a:hover {
 	text-decoration: underline;
+	color: #5958b7;
+}
+.form-container form .btn{
+	border-radius: 10px;
 }
 
 .user-details .user {
