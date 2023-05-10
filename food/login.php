@@ -75,10 +75,10 @@ if(isset($_POST['submit'])){
                 <input type="text" required placeholder="enter your email" class="email" name="email"  oninput="this.value = this.value.replace(/\s/g, '')">
                 <input type="password" required placeholder="enter your password" class="pw" name="pass" oninput="this.value = this.value.replace(/\s/g, '')">
               </div>
-               <input type="submit" value="Login" name="submit" class="btn-masuk"></input>
+               <input type="submit" value="Login" name="submit" class="btn2"></input>
             </div>
             <div class="daftar-masuk">
-              <h6>Didn't have account? <a href="register.php">Register</a></h6>
+              <p>Didn't have account? <a href="register.php">Register</a></p>
             </div>
         </div>
     </section>

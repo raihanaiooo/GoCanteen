@@ -10,7 +10,6 @@ if(isset($message)){
    }
 }
 ?>
-
 <header class="header">
 
    <section class="flex">
